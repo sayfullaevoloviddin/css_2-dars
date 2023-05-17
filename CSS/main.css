@@ -1,0 +1,35 @@
+body{
+    background-color: orangered;
+    background-image: url("../rasmlar/tabiat.jpg");
+    background-repeat: no-repeat; /* repeat, no-repeat, repeat-x, repeat-y */
+    background-size: 50% ;/* %, px,cover */
+    background-position: center 250px;/* x(left, center, right), y(top, center, bottom) */
+    /* property: value*/
+}
+.text{
+    font-size: 20px;
+    color: white;
+    border: 5px solid white;
+
+    /*border-top-width: 2px;
+    border-right-width: 10px;
+    border-bottom-width: 8px;
+    border-left-width: 4px;
+
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style:dashed ;
+
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: black;
+    border-left-color: aqua;*/
+
+    text-align: right;
+    text-transform: none;/* uppercase */
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 12px;
+    line-height: 15px;
+}
